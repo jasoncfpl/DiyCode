@@ -1,4 +1,4 @@
-package lynn.diycode.com.diycode;
+package com.diycode.lynn;
 
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class MainActivity2 extends AppCompatActivity {
 

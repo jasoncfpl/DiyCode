@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/colorPrimary">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/title_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:titleTextColor="@color/color_ffffff"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <!--<TextView-->
+            <!--android:id="@+id/title_center_tv"-->
+            <!--android:gravity="center"-->
+            <!--tools:text="标题"-->
+            <!--android:textColor="@color/color_ffffff"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+    </android.support.v7.widget.Toolbar>
+
+
+</RelativeLayout>
